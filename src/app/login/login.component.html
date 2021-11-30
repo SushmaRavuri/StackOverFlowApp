@@ -14,10 +14,12 @@
         
             <button type="submit" routerLink='/menu'>Login</button>
             <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
+              <input type="checkbox" name="remember"> Remember me
             </label>
+            <br>
+            <a [routerLink]="['/Forgot Password']" class="btn btn-lg btn-light">ForgotPassword</a>
           </div>
-          <a [routerLink]="['/Forgot Password']" class="btn btn-lg btn-light">ForgotPassword</a>
+          
           <div class="container" style="background-color:#f1f1f1">
             <button type="button" class="cancelbtn">Cancel</button>
           </div>

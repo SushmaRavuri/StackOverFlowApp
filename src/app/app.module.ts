@@ -13,6 +13,7 @@ import { UsersComponent } from './users/users.component';
 import { TagsComponent } from './tags/tags.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { TagsComponent } from './tags/tags.component';
     ForgotpasswordComponent,
     UsersComponent,
     TagsComponent,
+  
   ],
   imports: [
     BrowserModule,
