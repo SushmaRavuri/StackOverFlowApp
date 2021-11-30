@@ -9,6 +9,7 @@ import { CounterComponent } from './counter/counter.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { UsersComponent } from './users/users.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
     LoginComponent,
     RegisterComponent,
     ForgotpasswordComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
