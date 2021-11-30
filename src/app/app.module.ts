@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { UsersComponent } from './users/users.component';
+import { TagsComponent } from './tags/tags.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { UsersComponent } from './users/users.component';
     RegisterComponent,
     ForgotpasswordComponent,
     UsersComponent,
+    TagsComponent,
   ],
   imports: [
     BrowserModule,
