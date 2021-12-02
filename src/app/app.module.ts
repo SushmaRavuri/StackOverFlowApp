@@ -11,6 +11,8 @@ import { RegisterComponent } from './register/register.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { UsersComponent } from './users/users.component';
 import { TagsComponent } from './tags/tags.component';
+import { QuestionsComponent } from './questions/questions.component';
+
 
 
 
@@ -25,6 +27,8 @@ import { TagsComponent } from './tags/tags.component';
     ForgotpasswordComponent,
     UsersComponent,
     TagsComponent,
+    QuestionsComponent,
+    
   
   ],
   imports: [

@@ -8,6 +8,8 @@ import { RegisterComponent } from './register/register.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { UsersComponent } from './users/users.component';
 import { TagsComponent } from './tags/tags.component';
+import { QuestionsComponent } from './questions/questions.component';
+
 
 
 const routes: Routes = [
@@ -18,7 +20,8 @@ const routes: Routes = [
   {path:'menu',component:UsersComponent},
   {path:'users',component:UsersComponent},
   {path:'tags',component:TagsComponent},
-
+  {path:'Questions',component:QuestionsComponent}
+  
 ];
 
 @NgModule({
